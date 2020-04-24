@@ -12,5 +12,6 @@
 
 
 ## 截图：
-<img src="./images/2.jpg" />
-<img src="./images/1.jpg" />
+
+<img src="https://luojing.top/vue3musicimg/2.jpg" />
+<img src="https://luojing.top/vue3musicimg/1.jpg" />
