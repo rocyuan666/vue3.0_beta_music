@@ -1,0 +1,31 @@
+@import "./normalize.css";
+
+/* reset css */
+a,img,input {border:none;}
+body{font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+q:before,q:after{content:'';}
+fieldset,img,abbr,acronym{border:0;}
+a, img {-webkit-touch-callout: none;}
+html, body {-webkit-user-select: none;user-select: none;}
+.c:before,.c:after{content:"";display:table;}
+.c:after{clear:both;}
+.c{zoom:1;}
+a {text-decoration:none;overflow:hidden;}
+a:hover {text-decoration:none;}
+
+
+::-webkit-scrollbar{width:10px;height:12px;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{width:0;height:0;}
+::-webkit-scrollbar-track-piece{background-clip:padding-box;background-color:whitesmoke;border:solid white;}
+/* ::-webkit-scrollbar-track-piece:vertical{box-shadow:inset 1px 0 0 rgba(0,0,0,.14),inset -1px 0 0 rgba(0,0,0,.00);border-width:0;} */
+/* ::-webkit-scrollbar-track-piece:horizontal{box-shadow:inset 0 1px 0 rgba(0,0,0,.14),inset 0 -1px 0 rgba(0,0,0,.05);border-width:0;} */
+::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);background-clip:padding-box;border:solid transparent;}
+/* ::-webkit-scrollbar-thumb:vertical{border-width:1px 1px 1px 2px;min-height:24px;box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.1);} */
+/* ::-webkit-scrollbar-thumb:horizontal{border-width:2px 1px 1px 1px;min-width:24px;box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset -1px 0 0 rgba(0,0,0,.1);} */
+/* ::-webkit-scrollbar-thumb:vertical:hover{background-color:rgba(0,0,0,.6);box-shadow:inset 1px 1px 0 rgba(0,0,0,.5),inset 0 -1px 0 rgba(0,0,0,.3);} */
+/* ::-webkit-scrollbar-thumb:horizontal:hover{background-color:rgba(0,0,0,.6);box-shadow:inset 1px 1px 0 rgba(0,0,0,.5),inset -1px 0 0 rgba(0,0,0,.3);} */
