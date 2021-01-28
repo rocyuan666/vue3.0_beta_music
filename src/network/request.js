@@ -1,7 +1,7 @@
 import axios from "axios"
 export function request(config){
   const sl1 = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "http://roc.luojing.top:3001",
     timeout: 5000
   })
   // 拦截器
